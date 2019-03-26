@@ -1,9 +1,41 @@
-/* styles */
+/* style.css */
+/* Customs Styles */
 /* called by your view template */
+
+/* Colors */
+
+/* Colors / Background / Gradient*/
+
+
+.bg-gradient-kemedia-favicon {
+	background: rgb(137,114,184);
+	background: linear-gradient(56deg, rgba(137,114,184,1) 0%, rgba(201,53,153,1) 49%, rgba(29,226,240,1) 100%);
+}
+.bg-gradient-disco {
+	background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+.bg-gradient-seasalt {
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+/* Colors / Gradient*/
+
+.gradient-kemedia-favicon {
+	background: rgb(137,114,184);
+	background: linear-gradient(56deg, rgba(137,114,184,1) 0%, rgba(201,53,153,1) 49%, rgba(29,226,240,1) 100%);
+}
+.gradient-disco {
+	color: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+.gradient-seasalt {
+		background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
 
 * {
   box-sizing: border-box;
 }
+
+/* ORIGINAL CSS */
 
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;

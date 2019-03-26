@@ -1,0 +1,103 @@
+/* Show it is fixed to the top */
+body {
+  /* min-height: 75rem; */
+  /* padding-top: 4.5rem; */
+}
+.site-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.site-header-logo {
+	font-family: "Roboto", "Open Sans", "Noto Sans", Arial, "Segoe UI", sans-serif;
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+  background-color: black;
+  display: box;
+  font-size: 1.25rem;
+}
+
+.site-header-logo:hover {
+  text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+
+{
+
+  font-family: "Roboto", "Open Sans", "Noto Sans", Arial, "Segoe UI", sans-serif;
+  /*color: white;*/
+  font-weight: 900;
+  font-style: italic;
+  /*background-color: black;*/
+  /*display: box;*/
+}
+
+
+.text-jumbo-kem {
+	font-family: "Noto Sans", "Open Sans", "Noto Sans", Arial, "Segoe UI", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  background-color: black;
+  display: box;
+
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.site-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.site-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .site-title {
+    font-size: 3.5rem;
+  }
+}
+
+
+/*
+ * Footer
+ */
+
+.site-footer {
+  /*padding: 2.5rem 0;*/
+  color: #999;
+  /*text-align: center;*/
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #e5e5e5;
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* END From blog.css */
+
+/* BEGIN Kemical Sex Styles */
+
+.block-kem {
+  display: block;
+  background-color: #ffa19a7;
+  color: white;
+}
+
+/
